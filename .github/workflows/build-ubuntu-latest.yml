@@ -25,6 +25,9 @@ jobs:
             cc: clang
             cxx: clang++
             
+        matrix:
+          include:     
+          
           - arch: arm_cortex-a9_vfpv3-d16
             target: mvebu-cortexa9
 
