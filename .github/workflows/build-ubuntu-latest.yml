@@ -25,8 +25,9 @@ jobs:
           - compiler: clang
             cc: clang
             cxx: clang++
-            
-        name:
+ 
+      matrix:
+         name:
           include:     
           
           - arch: arm_cortex-a9_vfpv3-d16
